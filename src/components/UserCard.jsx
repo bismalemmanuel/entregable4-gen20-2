@@ -25,9 +25,9 @@ const UserCard = ({user,deleteUserById,setUpdateInfo, setCloseForm}) => {
       </ul>
       <footer className='card_footer'>
         <button className='card__btn card__btn__trash' onClick={()=>deleteUserById(user.id)}>
-        <i class='bx bxs-trash'></i></button>
+        <i className='bx bxs-trash'></i></button>
         <button className='card__btn card__btn__edit' onClick= {handleEdit}>
-        <i class='bx bx-edit-alt'></i></button>
+        <i className='bx bx-edit-alt'></i></button>
       </footer>
     </article>
 
